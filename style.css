@@ -1,0 +1,26 @@
+html, body {
+	background: #000;
+	color: #eee;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+#content {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header {
+	width: 500px;
+	max-width: 100%;
+	padding-bottom: 25px;
+}
+
+#screenshot {
+	width: 600px;
+	max-width: 100%;
+	padding-top: 20px;
+}
