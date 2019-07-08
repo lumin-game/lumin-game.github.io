@@ -1,6 +1,7 @@
 html, body {
 	background: #000;
 	color: #eee;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -19,8 +20,38 @@ a {
 	padding-bottom: 25px;
 }
 
-#screenshot {
-	width: 600px;
+#description {
+	margin: 0 auto;
+	font-size: 18px;
+	width: 550px;
+	line-height: 1.5rem;
+	max-width: 95%;
+	padding-bottom: 20px;
+}
+
+#links {
+	margin: 0 auto;
+	width: 400px;
+	font-size: 42px;
+	max-width: 95%;
+	padding-bottom: 20px;
+}
+
+#links:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.link-col {
+  float: left;
+  width: 33.33%;
+}
+
+
+#trailer {
+	margin: 0 auto;
+	width: 800px;
 	max-width: 100%;
 	padding-top: 20px;
 }
